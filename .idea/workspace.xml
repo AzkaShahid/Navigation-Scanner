@@ -101,7 +101,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99d93a3e-ba33-4342-96f1-6f9cd224776a" name="Changes" comment="" />
+    <list default="true" id="99d93a3e-ba33-4342-96f1-6f9cd224776a" name="Changes" comment="initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,5 +271,10 @@
       <updated>1746533546582</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../eulHelper" />
+    </ignored-roots>
   </component>
 </project>
