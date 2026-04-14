@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">AlAdhan</string>
+    <string name="app_name">EUL HHelper</string>
+    <string name="scanner">Scanner</string>
+    <string name="chatbot">ChatBot</string>
 
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->

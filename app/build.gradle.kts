@@ -13,7 +13,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.app.ar.navigation"
+        applicationId = "com.app.sc.navigation"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -54,6 +54,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.compose.material3:material3-android:1.3.2")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
@@ -81,7 +82,26 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.retrofit2:converter-scalars:2.9.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.11.0")
+    implementation("com.google.android.gms:play-services-location:18.0.0")
+    implementation ("androidx.viewpager2:viewpager2:1.1.0")
+    implementation("com.journeyapps:zxing-android-embedded:4.3.0")
 
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+
+
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+
+    // Downgrade to 33.7.0 which still uses Kotlin 1.9.0 compatible metadata
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+
+    // These will now resolve to 1.9.0-compatible versions
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+
+    // Sticking with 2.8.7 to avoid Kotlin 2.1.0 metadata issues
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
 }
 
 kapt {

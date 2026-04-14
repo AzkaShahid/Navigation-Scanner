@@ -4,12 +4,16 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.view.animation.AnimationUtils
 import androidx.activity.viewModels
+import com.app.R
 import com.app.ui.main.MainViewModel
 import com.app.ui.sidenavigation.SideNavigationActivity
 import com.app.databinding.ActivitySplashBinding
 import com.app.bases.BaseActivity
 import com.app.ui.login.LoginActivity
+import com.app.ui.main.WelcomeActivity
+import com.app.ui.sidenavigation.home.MapActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -26,6 +30,9 @@ class SplashActivity : BaseActivity<ActivitySplashBinding, MainViewModel>() {
         Handler(Looper.getMainLooper()).postDelayed({
             startNextActivity()
         }, delay)
+        val anim = AnimationUtils.loadAnimation(this, R.anim.fade_in)
+        mViewBinding.logo.startAnimation(anim)
+
     }
 
 
@@ -33,10 +40,11 @@ class SplashActivity : BaseActivity<ActivitySplashBinding, MainViewModel>() {
     }
 
     override fun attachListens() {
+
     }
 
     private fun startNextActivity() {
-        startActivity(Intent(this, SideNavigationActivity::class.java))
+        startActivity(Intent(this, WelcomeActivity::class.java))
         this.finish()
     }
 

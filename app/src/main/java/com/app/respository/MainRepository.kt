@@ -14,7 +14,6 @@ import javax.inject.Singleton
 @Singleton
 class MainRepository @Inject constructor(
     private val apiClientInterface: ApiClientInterface,
-    private val appDao: AppDao
 ) :
     BaseRepository() {
 
@@ -24,15 +23,6 @@ class MainRepository @Inject constructor(
     ) = safeApiCall {
         apiClientInterface.callLogin(userName, password)
     }
-    suspend fun callPrayerData(apiUrl : String) = safeApiCall {
-        apiClientInterface.getPrayerData(apiUrl)
-    }
-    suspend fun insertCity(city: CityDBModel) {
-        appDao.insertCity(city)
-    }
 
-    fun getAllCities(): LiveData<List<CityDBModel>> {
-        return appDao.getAllCities()
-    }
 
 }

@@ -23,8 +23,12 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/brown"
+        android:layout_height="@dimen/margin_50"
+
+        android:background="@drawable/bg_bottom_bar"
+        android:paddingTop="@dimen/margin_6"
+        android:layout_marginHorizontal="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_20"
         app:menu="@menu/bottom_nav_menu" />
 
 </LinearLayout>

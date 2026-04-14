@@ -14,7 +14,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>() {
     override fun initBinding() = ActivityMainBinding.inflate(layoutInflater)
 
     override fun initViews(savedInstanceState: Bundle?) {
-        startActivity(Intent(this, SideNavigationActivity::class.java))
+        startActivity(Intent(this, WelcomeActivity::class.java))
     }
 
     override fun addViewModelObservers() {

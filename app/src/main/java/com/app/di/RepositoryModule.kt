@@ -16,9 +16,9 @@ object RepositoryModule {
     @Singleton
     @Provides
     fun provideMainRepositoryModule(
-        apiClientInterface: ApiClientInterface,
-        appDao: AppDao
+        apiClientInterface: ApiClientInterface
+        //appDao: AppDao
     ): MainRepository {
-        return MainRepository(apiClientInterface, appDao)
+        return MainRepository(apiClientInterface)
     }
 }
