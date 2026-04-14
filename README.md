@@ -1,44 +1,53 @@
 # 🧭 Navigation Scanner
 
-An Android application that uses AI-powered assistance to analyze navigation routes and provide intelligent responses using OpenAI API.
+An AI-powered Android application that enhances navigation by analyzing location-based inputs and providing intelligent responses using OpenAI API.
 
 ---
 
 ## 📱 Overview
 
-Navigation Scanner is a smart Android application that combines location-based services with AI capabilities. The app allows users to scan or input navigation data and receive AI-generated insights and guidance.
+Navigation Scanner is a smart Android application that combines GPS-based navigation with Artificial Intelligence. The app processes user-provided navigation inputs and uses OpenAI API to generate meaningful insights, suggestions, or route-related assistance.
 
-This project demonstrates integration of OpenAI API in a real-world Android use case.
+This project demonstrates real-world integration of AI into mobile applications.
 
 ---
 
 ## 🚀 Features
 
-- AI-powered navigation assistance  
-- Route analysis and suggestions  
-- Location-based data processing  
-- Simple and interactive UI  
-- Real-time response using OpenAI API  
+- AI-powered navigation assistance using OpenAI  
+- Location-based input processing  
+- Smart route analysis and suggestions  
+- Clean and simple user interface  
+- Real-time API response handling  
+- Lightweight and fast performance  
 
 ---
+
+## Preview:
+
 
 ## 🛠️ Tech Stack
 
 - Kotlin / Java  
 - Android SDK  
 - OpenAI API  
-- Retrofit / OkHttp (API calls)  
-- Google Maps / Location Services (if used)  
+- Retrofit / OkHttp (for API calls)  
+- Google Maps API (if integrated)  
+- JSON Parsing  
 
 ---
 
-## 🔑 Important Setup
+## 🔑 Setup Instructions
 
-⚠️ This project requires an OpenAI API key to function.
+### ⚠️ Important Requirement
 
-You must add your own API key in the project before running it.
+This project requires an **OpenAI API Key** to work.
 
-Example:
+---
 
-```kotlin id="nav2"
+### 🔧 Step 1: Add Your API Key
+
+Open the project and locate the API configuration file and add your key:
+
+```kotlin id="fullnav2"
 val apiKey = "YOUR_OPENAI_API_KEY"
