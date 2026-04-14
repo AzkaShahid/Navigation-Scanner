@@ -25,15 +25,15 @@ This project demonstrates real-world integration of AI into mobile applications.
 
 ## Preview:
 <p align="center">
-  <img src="cpn_1.jpeg" width="180"/>
-  <img src="cpn_2.jpeg" width="180"/>
-  <img src="cpn_3.jpeg" width="180"/>
-  <img src="cpn_4.jpeg" width="180"/>
-  <img src="cpn_5.jpeg" width="180"/>
-  <img src="cpn_6.jpeg" width="180"/>
-  <img src="cpn_7.jpeg" width="180"/>
-  <img src="cpn_8.jpeg" width="180"/>
-  <img src="cpn_9.jpeg" width="180"/>
+  <img src="eul_1.jpeg" width="180"/>
+  <img src="eul_2.jpeg" width="180"/>
+  <img src="eul_3.jpeg" width="180"/>
+  <img src="eul_0.jpeg" width="180"/>
+  <img src="eul_0.1.jpeg" width="180"/>
+  <img src="eul_4.jpeg" width="180"/>
+  <img src="eul_5.jpeg" width="180"/>
+  <img src="eul_6.jpeg" width="180"/>
+  <img src="eul_7.jpeg" width="180"/>
 </p>
 
 ## 🛠️ Tech Stack
