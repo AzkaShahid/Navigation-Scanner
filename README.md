@@ -23,7 +23,7 @@ This project demonstrates real-world integration of AI into mobile applications.
 
 ---
 
-## Preview:
+## Screenshots:
 <p align="center">
   <img src="eul_1.jpeg" width="180"/>
   <img src="eul_2.jpeg" width="180"/>
